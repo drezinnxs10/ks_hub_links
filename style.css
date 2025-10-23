@@ -1,0 +1,99 @@
+/* CSS Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+/* Variaveis para cores */
+
+:root {
+
+    --azulEscuro: #04042e;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+/* Layout */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    color: var(--branco);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px 0px;
+    font-size: 1.65rem;
+
+}
+
+p {
+    color: var(--branco);
+    margin-top: 10px 5px;
+    font-size: small;
+    
+
+}
+
+body {
+    font-family: 'BBH Sans Bartle';
+    background-color: var(--azulEscuro);
+    border-color: var(--branco);
+
+
+}
+
+header img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    margin-top: 0.2rem ;
+}
+
+main {
+    text-align: center;
+    
+}
+
+/* links */
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.container a {
+    text-decoration: none;
+    background-color: var(--branco);
+    text-align: center;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    padding-top: 15px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 160px;
+    background-color: var(--branco);
+    border-radius: 300px;
+    width: 170px;
+    text-align: center;
+    padding-top: 5px;
+    
+    
+}
+
+footer img {
+    margin: 0px 3px
+}
