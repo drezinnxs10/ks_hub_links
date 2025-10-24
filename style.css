@@ -10,7 +10,7 @@
 
 :root {
 
-    --azulEscuro: #04042e;
+    --azulRoyal: #383896;
     --branco: #ffffff;
     --preto: #000000;
 }
@@ -43,7 +43,7 @@ p {
 
 body {
     font-family: 'BBH Sans Bartle';
-    background-color: var(--azulEscuro);
+    background-color: var(--azulRoyal);
     border-color: var(--branco);
 
 
@@ -86,8 +86,8 @@ main {
 footer {
     margin-top: 160px;
     background-color: var(--branco);
-    border-radius: 300px;
-    width: 170px;
+    border-radius: 400px;
+    width: 250px;
     text-align: center;
     padding-top: 5px;
     
@@ -95,5 +95,5 @@ footer {
 }
 
 footer img {
-    margin: 0px 3px
+    margin: 0px 23px
 }
